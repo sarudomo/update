@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="ui_touch.js"></script>
+    <style>
+    *{margin: 0; padding:0; box-sizing: border-box;}
+    html{height:100%}
+    body{height:100%; overflow: hidden;}
+    
+    #layout{position: relative; top:0; height:100%; transition: all 0.5s;}
+    #layout>section{height:100%}
+    
+    #layout>section:nth-child(1){background-color: green;}
+    #layout>section:nth-child(2){background-color: orange;}
+    #layout>section:nth-child(3){background-color: yellow;}
+    #layout>section:nth-child(4){background-color: red;}
+    </style>
+</head>
+<body>
+    <div id="layout">
+        <section>
+            <h2>1</h2>
+        </section>
+        <section>
+            <h2>2</h2>
+        </section>
+        <section>
+            <h2>3</h2>
+        </section>
+        <section>
+            <h2>4</h2>
+        </section>
+    </div>
+</body>
+</html>
